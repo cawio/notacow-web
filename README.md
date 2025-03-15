@@ -2,7 +2,7 @@
 
 A retro-styled personal website with a pastel color scheme.
 
-![NOTACOW Website Preview](screenshot.png)
+![NOTACOW Website Preview](assets/screenshot.png)
 
 ## Features
 
