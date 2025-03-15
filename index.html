@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="public/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="public/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="public/favicon-16x16.png">
         <link rel="manifest" href="site.webmanifest">
         <!-- HTML Meta Tags -->
         <title>NOTACOW</title>
@@ -26,9 +26,7 @@
         <meta name="twitter:description" content="Welcome to my website. I'm a software engineer based in Germany who enjoys gaming, coding, cats, and more.">
         <meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/427720e4-3089-406a-b40e-62b8bfcc94c3.png?token=THAHhm47-7jHpDnl7ddclyzkuyXRy2Tg0E5rIo1iWiw&height=512&width=512&expires=33277934985">
 
-        <!-- Meta Tags Generated via https://www.opengraph.xyz -->
         <style>
-            /* Pastel retro color scheme that works well with Dark Reader */
             :root {
                 --background: #374259;
                 --text: #FFC1B4;
@@ -116,7 +114,6 @@
                 opacity: 0.3;
             }
 
-            /* Pixelated image style */
             .avatar-img {
                 width: 150px;
                 height: 150px;
@@ -134,7 +131,7 @@
 
         <div class="card">
             <h2>About Me</h2>
-            <img src="avatar.png" alt="Profile Picture" class="avatar-img" />
+            <img src="public/avatar.png" alt="Profile Picture" class="avatar-img" />
             <p>Hi there! I'm a software engineer based in germany. I enjoy gaming, coding, love my cats and my boyfriend.</p>
             <p>Feel free to reach out if you want to collaborate or just chat!</p>
         </div>
@@ -146,7 +143,7 @@
         </div>
 
         <footer>
-            <p>© 2025 | NOTACOW | <span class="blink">█</span></p>
+            <p>© <script>document.write(new Date().getFullYear());</script> | NOTACOW | <span class="blink">█</span></p>
         </footer>
     </body>
 </html>
